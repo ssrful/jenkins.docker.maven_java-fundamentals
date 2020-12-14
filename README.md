@@ -20,7 +20,7 @@ Docker](https://curriculeon.github.io/Curriculeon/lectures/containerization/dock
 8. [Jenkins Environment Configuration - Docker Integration](https://curriculeon.github.io/Curriculeon/lectures/ci-cd/jenkins/docker-integration/content.html)
 
 ### Part 3 - Creating Pipeline
-1. [My First Maven Pipeline](https://curriculeon.github.io/Curriculeon/lectures/ci-cd/jenkins/docker-integration/content.html)
+1. [My First Maven Pipeline](https://curriculeon.github.io/Curriculeon/lectures/ci-cd/jenkins/my-first-maven-pipeline/content.html)
 	* Create a Jenkins pipeline which
 		1. `.jar`s [a Maven Application](https://github.com/curriculeon/jenkins.docker.maven_java-fundamentals)
 		2. containerizes `.jar` in a Docker Instance

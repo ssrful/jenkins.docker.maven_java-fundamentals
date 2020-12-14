@@ -36,7 +36,7 @@
 
 [![./VIEWME-ide.gif]](./VIEWME-ide.gif)
 
-[![./VIEWME-cli.gif]](./VIEWME.gif)    
+[![./VIEWME-cli.gif]](./VIEWME-cli.gif)
 
 
 ## Predicate Utilities

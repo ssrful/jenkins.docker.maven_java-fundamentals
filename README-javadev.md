@@ -1,10 +1,5 @@
 # Java Fundamentals
 
-# Prerequisite Software
-1. [Install Java](https://curriculeon.github.io/Curriculeon/lectures/java/installation/content.html)
-2. [Install Maven](https://curriculeon.github.io/Curriculeon/lectures/java/build-automation/maven/installation/content.html)
-3. [Install IntelliJ](https://curriculeon.github.io/Curriculeon/lectures/java/install-intellij/content.html)
-
 ### **Objective:**
 * To complete the method stubs in each of the provided classes
 	* `MathUtilities`
@@ -39,7 +34,9 @@
 4. Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
     * `TestSuite` is located in `src.main.java.com.github.perscholas.java_fundamentals`
 
-<img src="./VIEWME.gif">    
+[![./VIEWME-ide.gif]](./VIEWME-ide.gif)
+
+[![./VIEWME-cli.gif]](./VIEWME.gif)    
 
 
 ## Predicate Utilities

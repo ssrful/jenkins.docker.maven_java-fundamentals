@@ -21,12 +21,13 @@
 ### Part 3 - Creating Pipeline
 1. [My First Maven Pipeline](https://curriculeon.github.io/Curriculeon/lectures/ci-cd/jenkins/my-first-maven-pipeline/content.html)
 	* Create a Jenkins pipeline which
-		1. Creates [pulls a docker image with `Git`, `Java` and `Maven` installed](https://hub.docker.com/r/jamesdbloom/docker-java8-maven)
-		2. `git clones` [a maven Application](https://github.com/curriculeon/jenkins.docker.maven_java-fundamentals)
-		3. `.jar`s the cloned maven application.
-		4. runs JUnit tests and ignore failures on `.jar` in container by leveraging command below
+		1. [Pulls a docker _image_ with `Git`, `Java` and `Maven` installed](https://hub.docker.com/r/jamesdbloom/docker-java8-maven)
+		2. Creates a docker _container_ from the aforementioned docker _image_.
+		3. `git clone`s [a maven Application](https://github.com/curriculeon/jenkins.docker.maven_java-fundamentals) into the container.
+		4. `.jar`s the cloned maven application within the container.
+		5. runs JUnit tests and ignore failures on `.jar` in container by leveraging command below
 			* `mvn package -Dmaven.test.failure.ignore=true`
-		5. ensure output of build is displayed by Jenkins
+		6. ensure output of build is displayed by Jenkins
 
 
 ### Part 4 - Passing Test Cases

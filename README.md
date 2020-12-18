@@ -20,6 +20,7 @@
 
 ### Part 3 - Creating Pipeline
 1. [Running Jenkins from within a Docker Container](https://curriculeon.github.io/Curriculeon/lectures/containerization/docker/dockerizing-jenkins/content.html)
+	* This instance of Jenkins should require NO additional plugins as it will be running all builds within a container which has all necessary dependencies for the respective application to run.
 1. [My First Maven Pipeline](https://curriculeon.github.io/Curriculeon/lectures/ci-cd/jenkins/my-first-maven-pipeline/content.html)
 	* Create a Jenkins pipeline which
 		1. [Pulls a docker _image_ with `Git`, `Java` and `Maven` installed](https://hub.docker.com/r/jamesdbloom/docker-java8-maven)
